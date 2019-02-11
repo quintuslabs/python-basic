@@ -1,0 +1,12 @@
+data = ['1','2','3','4','5']
+print(len(data))
+print(data)
+data.append([1, 5, 6])
+print(data)
+# data.append([8,9])
+data.extend([7,8,9])
+print(data)
+data.insert(3,(7,8,9))
+print(data)
+print(data)
+# print(data)
